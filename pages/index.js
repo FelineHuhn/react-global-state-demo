@@ -1,7 +1,11 @@
+import CounterStats from "../components/CounterStats";
+import Link from "../components/Link";
+
 export default function HomePage() {
   return (
-    <div>
-      <h1>Hello from Next.js</h1>
-    </div>
+    <>
+      <CounterStats />
+      <Link href="/counters">To the counters →</Link>
+    </>
   );
 }
